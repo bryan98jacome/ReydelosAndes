@@ -66,7 +66,7 @@ export default function NavBar() {
                     </NavbarItem>
                     <NavbarItem>
                         <Link color="foreground" className="font-semibold" href="#Contacto">
-                            Contacto
+                            Contactos
                         </Link>
                     </NavbarItem>
                 </NavbarContent>
@@ -94,7 +94,7 @@ export default function NavBar() {
                     </NavbarItem>
                     <NavbarItem>
                         <Link color="foreground" className="font-semibold" href="#Contacto" onClick={closeMenu}>
-                            Contacto
+                            Contactos
                         </Link>
                     </NavbarItem>
                 </NavbarMenu>

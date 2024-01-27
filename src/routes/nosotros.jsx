@@ -1,5 +1,5 @@
 import { Card, CardBody, Image, ScrollShadow, Tab, Tabs } from "@nextui-org/react";
-import IMGTemp from '../images/helado.jpg'
+import imageHS from '../images/imgNos.png'
 
 export default function Nosotros() {
     return (
@@ -58,10 +58,9 @@ export default function Nosotros() {
                         <Image
                             isBlurred
                             isZoomed
-                            height={500}
-                            src={IMGTemp}
+                            src={imageHS}
                             alt="NextUI Album Cover"
-                            className="w-full h-full"
+                            className="cursor-pointer"
                         />
                     </section>
                 </div>

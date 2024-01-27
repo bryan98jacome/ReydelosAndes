@@ -7,8 +7,8 @@ export default function Contact() {
     return (
         <>
             <section className="flex flex-col lg:flex-row h:auto lg:h-164" id="Contacto">
-                <div data-aos="fade-down" className="flex flex-col justify-center items-center basis-3/4 p-2">
-                    <strong className="mb-4 text-4xl text-left text-blue23 font-title w-full">Encuentranos</strong>
+                <div data-aos="zoom-in" className="flex flex-col justify-center items-center basis-3/4 p-2">
+                    <strong className="mb-4 text-4xl text-center lg:text-left ml-0 lg:ml-36 text-blue23 font-title w-full">Encuéntranos</strong>
                     <iframe className="w-full lg:w-4/5 h-80 lg:h-4/5 rounded-md" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Helados%20Rey%20de%20los%20Andes%20Latacunga+(Rey%20de%20los%20Andes%20)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>
                     </a>
                 </div>

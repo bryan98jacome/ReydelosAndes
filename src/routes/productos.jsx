@@ -39,10 +39,10 @@ export default function Productos() {
         <>
             <section className="grid justify-items-center h-auto lg:h-164 mb-8 lg:mb-0" id="Productos">
                 <div className="sm:px-20 p-5">
-                    <strong  data-aos="fade-right" className="mb-4 text-5xl text-left text-blue23 font-title">Nuestros productos</strong>
-                    <p  data-aos="fade-right" className="mb-4 text-xl text-left text-blue23">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore? Itaque harum laborum dignissimos culpa vero aut possimus repellendus exercitationem, eum enim ea voluptas rerum?</p>
+                    <p  data-aos="zoom-in" className="mb-4 text-5xl text-center lg:text-left text-blue23 font-bold">Nuestros productos</p>
+                    <p  data-aos="fade-down" className="mb-4 text-xl text-center lg:text-left text-blue23">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, tempore? Itaque harum laborum dignissimos culpa vero aut possimus repellendus exercitationem, eum enim ea voluptas rerum?</p>
                 </div>
-                <div  data-aos="fade-left" className="relative group h-96 w-4/5 lg:w-3/4">
+                <div  data-aos="fade-up" className="relative group h-96 w-4/5 lg:w-3/4">
                     <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className="flex justify-center w-full h-full rounded-2xl bg-contain bg-center bg-cover bg-no-repeat duration-500">
                         {/* Left Arrow */}
                         <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p2 bg-black/20 text-white cursor-pointer">
